@@ -198,7 +198,7 @@ def new_member(update: Update, context: CallbackContext):
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_photo(
                     OHOHOH_DC,
-                    caption="my owner just join this chat!!😱😻」\n\n「welcome boss @Surya12p」",
+                    caption="my owner just join this chat!!😱😻」\n\n「welcome boss @thanosceo」",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
